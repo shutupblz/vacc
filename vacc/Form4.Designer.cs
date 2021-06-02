@@ -58,11 +58,11 @@ namespace vacc
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.DarkBlue;
-            this.label1.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label1.Location = new System.Drawing.Point(332, -3);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(436, 44);
+            this.label1.Size = new System.Drawing.Size(458, 44);
             this.label1.TabIndex = 0;
             this.label1.Text = "VACCINATION CENTER";
             // 
@@ -70,11 +70,11 @@ namespace vacc
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label2.Font = new System.Drawing.Font("Century Gothic", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label2.Location = new System.Drawing.Point(271, 41);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(546, 44);
+            this.label2.Size = new System.Drawing.Size(592, 44);
             this.label2.TabIndex = 2;
             this.label2.Text = "REGISTER FOR VACCINATION";
             this.label2.Click += new System.EventHandler(this.label2_Click);
@@ -82,7 +82,7 @@ namespace vacc
             // name
             // 
             this.name.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.name.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.name.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.name.HintForeColor = System.Drawing.Color.Empty;
             this.name.HintText = "";
@@ -103,11 +103,11 @@ namespace vacc
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label3.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label3.Location = new System.Drawing.Point(22, 228);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(115, 23);
+            this.label3.Size = new System.Drawing.Size(132, 25);
             this.label3.TabIndex = 11;
             this.label3.Text = "FULL NAME";
             // 
@@ -115,11 +115,11 @@ namespace vacc
             // 
             this.label4.AutoSize = true;
             this.label4.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label4.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label4.Location = new System.Drawing.Point(374, 228);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(136, 23);
+            this.label4.Size = new System.Drawing.Size(148, 25);
             this.label4.TabIndex = 12;
             this.label4.Text = "NATIONAL ID";
             // 
@@ -127,11 +127,11 @@ namespace vacc
             // 
             this.label7.AutoSize = true;
             this.label7.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label7.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label7.Location = new System.Drawing.Point(313, 496);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(290, 23);
+            this.label7.Size = new System.Drawing.Size(325, 25);
             this.label7.TabIndex = 15;
             this.label7.Text = "HOW MANY DOSAGES TAKEN";
             this.label7.Click += new System.EventHandler(this.label7_Click);
@@ -140,11 +140,11 @@ namespace vacc
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label8.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label8.Location = new System.Drawing.Point(22, 496);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(234, 23);
+            this.label8.Size = new System.Drawing.Size(257, 25);
             this.label8.TabIndex = 16;
             this.label8.Text = "VACCINATED (YES/NO)";
             // 
@@ -152,18 +152,18 @@ namespace vacc
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label5.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label5.Location = new System.Drawing.Point(687, 228);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(117, 23);
+            this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 17;
             this.label5.Text = "PASSWORD";
             // 
             // pass
             // 
             this.pass.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.pass.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.pass.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.pass.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.pass.HintForeColor = System.Drawing.Color.Empty;
             this.pass.HintText = "";
@@ -183,7 +183,7 @@ namespace vacc
             // id
             // 
             this.id.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.id.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.id.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.id.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.id.HintForeColor = System.Drawing.Color.Empty;
             this.id.HintText = "";
@@ -206,11 +206,11 @@ namespace vacc
             // 
             this.label9.AutoSize = true;
             this.label9.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label9.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label9.Location = new System.Drawing.Point(395, 345);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(52, 23);
+            this.label9.Size = new System.Drawing.Size(57, 25);
             this.label9.TabIndex = 21;
             this.label9.Text = "AGE";
             // 
@@ -218,11 +218,11 @@ namespace vacc
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label10.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label10.Location = new System.Drawing.Point(22, 345);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(88, 23);
+            this.label10.Size = new System.Drawing.Size(100, 25);
             this.label10.TabIndex = 22;
             this.label10.Text = "GENDER";
             // 
@@ -230,18 +230,18 @@ namespace vacc
             // 
             this.label11.AutoSize = true;
             this.label11.BackColor = System.Drawing.Color.MediumSeaGreen;
-            this.label11.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label11.Location = new System.Drawing.Point(689, 345);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(128, 23);
+            this.label11.Size = new System.Drawing.Size(146, 25);
             this.label11.TabIndex = 23;
             this.label11.Text = "GOVERNATE";
             // 
             // comboGen
             // 
             this.comboGen.BackColor = System.Drawing.Color.DarkBlue;
-            this.comboGen.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboGen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboGen.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.comboGen.FormattingEnabled = true;
             this.comboGen.Items.AddRange(new object[] {
@@ -250,13 +250,13 @@ namespace vacc
             "OTHER"});
             this.comboGen.Location = new System.Drawing.Point(26, 394);
             this.comboGen.Name = "comboGen";
-            this.comboGen.Size = new System.Drawing.Size(133, 29);
+            this.comboGen.Size = new System.Drawing.Size(133, 28);
             this.comboGen.TabIndex = 24;
             // 
             // Age
             // 
             this.Age.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.Age.Font = new System.Drawing.Font("Century Gothic", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Age.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Age.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
             this.Age.HintForeColor = System.Drawing.Color.Empty;
             this.Age.HintText = "";
@@ -276,7 +276,7 @@ namespace vacc
             // comboDose
             // 
             this.comboDose.BackColor = System.Drawing.Color.DarkBlue;
-            this.comboDose.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboDose.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboDose.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.comboDose.FormattingEnabled = true;
             this.comboDose.Items.AddRange(new object[] {
@@ -284,7 +284,7 @@ namespace vacc
             "2 DOSES"});
             this.comboDose.Location = new System.Drawing.Point(389, 562);
             this.comboDose.Name = "comboDose";
-            this.comboDose.Size = new System.Drawing.Size(133, 29);
+            this.comboDose.Size = new System.Drawing.Size(133, 28);
             this.comboDose.TabIndex = 29;
             // 
             // regbtn
@@ -298,7 +298,7 @@ namespace vacc
             this.regbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("regbtn.BackgroundImage")));
             this.regbtn.ButtonText = "Register";
             this.regbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.regbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.regbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.regbtn.ForeColor = System.Drawing.Color.SeaGreen;
             this.regbtn.IdleBorderThickness = 1;
             this.regbtn.IdleCornerRadius = 20;
@@ -324,7 +324,7 @@ namespace vacc
             this.backbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("backbtn.BackgroundImage")));
             this.backbtn.ButtonText = "Back";
             this.backbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.backbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.backbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.backbtn.ForeColor = System.Drawing.Color.SeaGreen;
             this.backbtn.IdleBorderThickness = 1;
             this.backbtn.IdleCornerRadius = 20;
@@ -350,7 +350,7 @@ namespace vacc
             this.resetbtn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("resetbtn.BackgroundImage")));
             this.resetbtn.ButtonText = "Reset";
             this.resetbtn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.resetbtn.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.resetbtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.resetbtn.ForeColor = System.Drawing.Color.SeaGreen;
             this.resetbtn.IdleBorderThickness = 1;
             this.resetbtn.IdleCornerRadius = 20;
@@ -368,7 +368,7 @@ namespace vacc
             // gov
             // 
             this.gov.BackColor = System.Drawing.Color.DarkBlue;
-            this.gov.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gov.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gov.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.gov.FormattingEnabled = true;
             this.gov.Items.AddRange(new object[] {
@@ -401,7 +401,7 @@ namespace vacc
             "المنيا"});
             this.gov.Location = new System.Drawing.Point(689, 389);
             this.gov.Name = "gov";
-            this.gov.Size = new System.Drawing.Size(133, 29);
+            this.gov.Size = new System.Drawing.Size(133, 28);
             this.gov.TabIndex = 35;
             this.gov.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
@@ -420,7 +420,7 @@ namespace vacc
             // 
             // checkedListBox1
             // 
-            this.checkedListBox1.Font = new System.Drawing.Font("Century Gothic", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.checkedListBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.checkedListBox1.ForeColor = System.Drawing.Color.MediumBlue;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
@@ -428,7 +428,7 @@ namespace vacc
             "Yes"});
             this.checkedListBox1.Location = new System.Drawing.Point(58, 543);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(127, 50);
+            this.checkedListBox1.Size = new System.Drawing.Size(127, 48);
             this.checkedListBox1.TabIndex = 39;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
@@ -463,6 +463,7 @@ namespace vacc
             this.Controls.Add(this.label1);
             this.Name = "Form4";
             this.Text = "YES";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form4_FormClosing);
             this.Load += new System.EventHandler(this.Form4_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

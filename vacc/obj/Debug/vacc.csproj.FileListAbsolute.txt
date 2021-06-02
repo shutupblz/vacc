@@ -15,3 +15,19 @@ C:\Users\97150\source\repos\vacc\obj\Debug\vacc.csproj.CopyComplete
 C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form4.resources
 C:\Users\97150\source\repos\vacc\bin\Debug\Bunifu_UI_v1.5.3.dll
 C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form5.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\bin\Debug\vacc.exe.config
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\bin\Debug\vacc.exe
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\bin\Debug\vacc.pdb
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.csprojAssemblyReference.cache
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.Form1.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.Form2.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.Form3.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.Form4.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.Form5.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.Properties.Resources.resources
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.csproj.GenerateResource.cache
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.csproj.CoreCompileInputs.cache
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.csproj.CopyComplete
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.exe
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.pdb
+D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.AdminForm.resources

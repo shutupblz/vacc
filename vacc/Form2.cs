@@ -14,9 +14,13 @@ namespace vacc
 {
     public partial class Form2 : Form
     {
+        //Saved For efficiency
+        Admin admin;
+
         public Form2()
         {
             InitializeComponent();
+            admin = new Admin();
         }
 
         private void progressBar1_Click(object sender, EventArgs e)
@@ -30,22 +34,23 @@ namespace vacc
             button1.Hide();
             progressBar1.Show();
             String username = txtuser.Text;
-            String pass = txtpass.Text;
+            int pass = Convert.ToInt32(txtpass.Text);
 
-            /*if (username == "zeft" && pass == "pass")
+            if (admin.login(username, pass))
             {
+                MessageBox.Show("Welcome!");
                 this.Hide();
-                Form4 ff = new Form4();
-                ff.Show();
+                AdminForm adminForm = new AdminForm();
+                adminForm.Show();
 
             }
             else
             {
                 MessageBox.Show("Wrong User Name or Pass sis ! ");
-            
-            
+
+
             }
-            */
+
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -54,7 +59,7 @@ namespace vacc
             if (progressBar1.Value >= progressBar1.Maximum)
             {
                 timer1.Stop();
-                this.Hide();
+                //this.Hide();
                 
             
             }
@@ -79,6 +84,11 @@ namespace vacc
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void Form2_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
         }
     }
 }
