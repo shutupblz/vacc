@@ -1,0 +1,84 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using Oracle.DataAccess.Client;
+using Oracle.DataAccess.Types;
+
+namespace vacc
+{
+    public partial class Form2 : Form
+    {
+        public Form2()
+        {
+            InitializeComponent();
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.timer1.Start();
+            button1.Hide();
+            progressBar1.Show();
+            String username = txtuser.Text;
+            String pass = txtpass.Text;
+
+            /*if (username == "zeft" && pass == "pass")
+            {
+                this.Hide();
+                Form4 ff = new Form4();
+                ff.Show();
+
+            }
+            else
+            {
+                MessageBox.Show("Wrong User Name or Pass sis ! ");
+            
+            
+            }
+            */
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            this.progressBar1.Increment(10);
+            if (progressBar1.Value >= progressBar1.Maximum)
+            {
+                timer1.Stop();
+                this.Hide();
+                
+            
+            }
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+            progressBar1.Hide();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Login_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}

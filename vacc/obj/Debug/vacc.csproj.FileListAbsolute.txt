@@ -1,0 +1,17 @@
+C:\Users\97150\source\repos\vacc\bin\Debug\vacc.exe.config
+C:\Users\97150\source\repos\vacc\bin\Debug\vacc.exe
+C:\Users\97150\source\repos\vacc\bin\Debug\vacc.pdb
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.csprojAssemblyReference.cache
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Properties.Resources.resources
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.csproj.GenerateResource.cache
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.csproj.CoreCompileInputs.cache
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.exe
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.pdb
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form1.resources
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form2.resources
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form3.resources
+C:\Users\97150\source\repos\vacc\bin\Debug\Oracle.DataAccess.dll
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.csproj.CopyComplete
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form4.resources
+C:\Users\97150\source\repos\vacc\bin\Debug\Bunifu_UI_v1.5.3.dll
+C:\Users\97150\source\repos\vacc\obj\Debug\vacc.Form5.resources
