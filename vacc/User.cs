@@ -9,20 +9,27 @@ namespace vacc
 {
     public class User
     {
-        [Required]
-        [Range(1,100000)]
-        public string name { get; set; }
-        [Required]
-        public int idnum { get; set; }
-        [Required]
-        public string pass { get; set; }
-        [Required]
-        public string combogen { get; set; }
-        public int age { get; set; }
-        public string governate{ get; set; }
-        public bool vaccinated { get; set; }
-        public int dosagesNum{ get; set; }
+       
+        public string name;
+        public long NationalID;
+        public string password;
+        public string gender;
+        public int age;
+        public string governorate;
+        public bool vaccinated;
+        public int dosagesNum;
 
+        public User()
+        {
+            name = "";
+            NationalID = 0;
+            password = "";
+            gender = "";
+            age = 0;
+            governorate = "";
+            vaccinated = false;
+            dosagesNum = 0;
+        }
 
     }
 }

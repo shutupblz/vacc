@@ -97,7 +97,6 @@ namespace vacc
             this.name.Size = new System.Drawing.Size(217, 46);
             this.name.TabIndex = 3;
             this.name.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.name.OnValueChanged += new System.EventHandler(this.name_OnValueChanged);
             // 
             // label3
             // 
@@ -234,9 +233,9 @@ namespace vacc
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.label11.Location = new System.Drawing.Point(689, 345);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(146, 25);
+            this.label11.Size = new System.Drawing.Size(131, 25);
             this.label11.TabIndex = 23;
-            this.label11.Text = "GOVERNATE";
+            this.label11.Text = "Governorate";
             // 
             // comboGen
             // 
@@ -246,8 +245,7 @@ namespace vacc
             this.comboGen.FormattingEnabled = true;
             this.comboGen.Items.AddRange(new object[] {
             "FEMALE",
-            "MALE",
-            "OTHER"});
+            "MALE"});
             this.comboGen.Location = new System.Drawing.Point(26, 394);
             this.comboGen.Name = "comboGen";
             this.comboGen.Size = new System.Drawing.Size(133, 28);
@@ -280,8 +278,8 @@ namespace vacc
             this.comboDose.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.comboDose.FormattingEnabled = true;
             this.comboDose.Items.AddRange(new object[] {
-            "1 DOSE",
-            "2 DOSES"});
+            "1 ",
+            "2 "});
             this.comboDose.Location = new System.Drawing.Point(389, 562);
             this.comboDose.Name = "comboDose";
             this.comboDose.Size = new System.Drawing.Size(133, 28);
@@ -372,33 +370,33 @@ namespace vacc
             this.gov.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.gov.FormattingEnabled = true;
             this.gov.Items.AddRange(new object[] {
-            "الإسكندرية",
-            "الإسماعيلية",
-            "كفر الشيخ",
-            "أسوان",
-            "أسيوط",
-            "الأقصر",
-            "الوادي الجديد",
-            "شمال سيناء",
-            "البحيرة",
-            "بني سويف",
-            "بورسعيد",
-            "البحر الأحمر",
-            "الجيزة",
-            "الدقهلية",
-            "جنوب سيناء",
-            "دمياط",
-            "سوهاج",
-            "السويس",
-            "الشرقية",
-            "الغربية",
-            "الفيوم",
-            "القاهرة",
-            "القليوبية",
-            "قنا",
-            "مطروح",
-            "المنوفية",
-            "المنيا"});
+            "Alexandria",
+            "Aswan",
+            "Asyut",
+            "Beheira",
+            "Beni Suef",
+            "Cairo ",
+            "Dakahlia",
+            "Damietta",
+            "Faiyum",
+            "Gharbia",
+            "Giza",
+            "Ismailia ",
+            "Kafr El Sheikh",
+            "Luxor ",
+            "Matruh",
+            "Minya ",
+            "Monufia ",
+            "New Valley ",
+            "North Sinai ",
+            "Port Said ",
+            "Qalyubia ",
+            "Qena ",
+            "Red Sea ",
+            "Sharqia ",
+            "Sohag ",
+            "South Sinai ",
+            "Suez"});
             this.gov.Location = new System.Drawing.Point(689, 389);
             this.gov.Name = "gov";
             this.gov.Size = new System.Drawing.Size(133, 28);
@@ -424,7 +422,7 @@ namespace vacc
             this.checkedListBox1.ForeColor = System.Drawing.Color.MediumBlue;
             this.checkedListBox1.FormattingEnabled = true;
             this.checkedListBox1.Items.AddRange(new object[] {
-            "Not yet",
+            "No",
             "Yes"});
             this.checkedListBox1.Location = new System.Drawing.Point(58, 543);
             this.checkedListBox1.Name = "checkedListBox1";

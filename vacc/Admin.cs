@@ -10,8 +10,14 @@ namespace vacc
     {
         #region Fields
         private const string username = "Admin";
-        private const int password = 142536;
+        private const int password = 12345;
+        private static List<User> allUsers = new List<User>();
+        //List<User> waitingList = new List<User>();
+
+        
+
         #endregion
+
 
         #region Functions
         public bool login(string name, int pass)
@@ -23,7 +29,7 @@ namespace vacc
             return false;
             
         }
-
+      
         public string getUsername()
         {
             return username;
@@ -35,6 +41,25 @@ namespace vacc
         }
         #endregion
 
+        public static void receiveDate(User user)
+        {
+            allUsers.Add(user);
+        }
+        //public User searchUser (int nationalNumber, List<User> Users)
+        //{
+        //    User u = new User();
+        //    return u;
+        //}
+        public static List<User> getUserlist()
+        {
 
+
+            return allUsers;
+
+        }
+        public void viewUser()
+        {
+
+        }
     }
 }

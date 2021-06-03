@@ -24,7 +24,7 @@ namespace vacc
 
         private void button6_Click(object sender, EventArgs e)
         {
-            //this.Hide();
+            this.Hide();
             Form4 f = new Form4();
             f.Show();
         }

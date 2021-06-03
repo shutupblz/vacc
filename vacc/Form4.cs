@@ -19,7 +19,7 @@ namespace vacc
         {
             InitializeComponent();
         }
-        SqlConnection con = new SqlConnection(@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\97150\Documents\VaccinedB.mdf;Integrated Security=True;Connect Timeout=30");
+       
         private void Form4_Load(object sender, EventArgs e)
         {
 
@@ -40,38 +40,66 @@ namespace vacc
         {
 
         }
-
+        List<User> users = new List<User> ();
+        SortedSet<long> ids = new SortedSet<long>();
         private void regbtn_Click(object sender, EventArgs e)
         {
-            if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == "" || comboDose.Text == "" || comboGen.Text == "" )
+            if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == ""  || comboGen.Text == "" || checkedListBox1.SelectedIndex == -1)
             {
                 MessageBox.Show("Missing Information ! ");
+                return;
+              
+            }
+
+            if (checkedListBox1.SelectedIndex != -1 && comboDose.SelectedIndex == -1)
+            {
+
+                MessageBox.Show("Missing Information ! ");
+                return;
+            }
+
+            long nationalID = long.Parse(id.Text);
+            User user = new User();
+            if (nationalID != 14)
+            {
+                if (ids.Contains(nationalID))
+                {
+                    MessageBox.Show("This ID has Already registered");
+                    return;
+                }
+                else
+                {
+                    user.NationalID = nationalID;
+                    ids.Add(nationalID);
+                }
 
             }
             else
             {
-                    MessageBox.Show("You've Succesfully Registered For Vaccination !");
-            }
+                MessageBox.Show("Enter the 14 Characters for the National ID Please.");
+                return;
 
-            User u = new User();
-            int num = int.Parse(id.Text);
-            if (num <= 14)
+            }
+            user.age = int.Parse(Age.Text);
+            user.gender = comboGen.SelectedItem.ToString();
+            user.governorate = gov.SelectedItem.ToString();
+            user.name = name.Text;
+            user.password = pass.Text;
+            if (checkedListBox1.SelectedItem.ToString()== "No") 
             {
-                u.idnum = num;
-                u.age = int.Parse(Age.Text);
-                u.combogen = (comboGen.SelectedIndex.ToString());
-                u.dosagesNum = int.Parse(comboDose.SelectedItem.ToString());
-                u.governate = gov.Text;
-                u.name = name.Text;
-                u.pass = pass.Text;
-               
+                user.vaccinated = false;
+                user.dosagesNum = 0;
             }
-            else
+            else if(checkedListBox1.SelectedItem.ToString() == "Yes")
             {
-                MessageBox.Show("Enter the 13 Characters Please .");
-
+                user.vaccinated = true;
+                user.dosagesNum = int.Parse(comboDose.SelectedItem.ToString());
             }
+           
 
+            MessageBox.Show("You've Succesfully Registered For Vaccination !");
+            users.Add(user);
+            Admin.receiveDate(user);
         }
 
         private void resetbtn_Click(object sender, EventArgs e)
@@ -87,9 +115,10 @@ namespace vacc
 
         private void backbtn_Click(object sender, EventArgs e)
         {
-            Form1 f = new Form1();
-            f.Show();
+            Form3 f = new Form3();
             this.Hide();
+            f.Show();
+           
 
         }
 
