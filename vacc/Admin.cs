@@ -57,9 +57,26 @@ namespace vacc
             return allUsers;
 
         }
-        public void viewUser()
+        public User SearchUser(long Nationalid)
         {
-
+            for (int i = 0; i < allUsers.Count(); i++)
+            {
+                if (allUsers[i].NationalID == Nationalid)
+                {
+                    return allUsers[i];
+                }
+            }
+            return null;
+        }
+        public bool DeleteUser(long Nationalid)
+        {
+             User user = SearchUser(Nationalid);
+            if(user !=null)
+            {
+                allUsers.Remove(user);
+                return true;
+            }
+            return false; 
         }
     }
 }

@@ -51,7 +51,7 @@ namespace vacc
               
             }
 
-            if (checkedListBox1.SelectedIndex != -1 && comboDose.SelectedIndex == -1)
+            if (checkedListBox1.SelectedItem.ToString() == "Yes" && comboDose.SelectedIndex == -1)
             {
 
                 MessageBox.Show("Missing Information ! ");
@@ -60,7 +60,7 @@ namespace vacc
 
             long nationalID = long.Parse(id.Text);
             User user = new User();
-            if (nationalID != 14)
+            if (nationalID.ToString().Length == 14)
             {
                 if (ids.Contains(nationalID))
                 {
