@@ -95,7 +95,9 @@ namespace vacc
                 user.vaccinated = true;
                 user.dosagesNum = int.Parse(comboDose.SelectedItem.ToString());
             }
-           
+
+
+            
 
             MessageBox.Show("You've Succesfully Registered For Vaccination !");
             users.Add(user);
