@@ -141,15 +141,15 @@
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="label7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
-        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8
-        YQUAAAAJcEhZcwAAAG8AAABvAfGi3EMAAAAZdEVYdFNvZnR3YXJlAHd3dy5pbmtzY2FwZS5vcmeb7jwa
-        AAABjElEQVQ4T5WTvUoDQRSFx05ELARBC9tglVoEC8FKwdouDyBCrC3UN7DSF7COqCwKCv6iRIkiGhPF
-        SERMQEnwN4IIn2eSjdlsEoLFXc7szv127pl7DVAVJkHAxJg1UdbMARmzrdiSXtc7h0DNfo9oMUnCJk7B
-        nEJnDEbjMHYBXXvasKFw9G1Ve7S3ClBMTuOYay0uIZSGtx/YfYXNPHxKT14VAQhgwylDSoCMqEqygIE7
-        ePyGoP6sElAJ9B1BqgAjx1pbwIpimXAx1zyr5qyO5gKWXmAuKx1VuAB5wFQCnCfpCqBgIso1OZljE1zA
-        Qg667d99gN4dSLxLVwA2ZozJy2EPwHpgTfQDxs9h8V7aC4goV4BMM0DgEJIfMCgvfIBMU8DQGdzKwOET
-        rcu34AM0LKFHrqe/Sidw+6BOCT4TvYDQDcw/SMuDuoCiib5r9AImUjCtvmgAKF2jv5G8gFYdvd22cX1A
-        qZHcR1UrlwFBGdivmagB+Fv5D+IZJgto0wk69qUrgPrD5I3/jTPmF1Nyx93XsdcuAAAAAElFTkSuQmCC
+        iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAA
+        bwAAAG8B8aLcQwAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAGMSURBVDhPlZO9
+        SgNBFIXHTkQsBEEL22CVWgQLwUrB2i4PIEKsLdQ3sNIXsI6oLAoK/qJEiSIaE8VIRExASfA3ggifZ5KN
+        2WwSgsVdzuzO/XbumXsNUBUmQcDEmDVR1swBGbOt2JJe1zuHQM1+j2gxScImTsGcQmcMRuMwdgFde9qw
+        oXD0bVV7tLcKUExO45hrLS4hlIa3H9h9hc08fEpPXhUBCGDDKUNKgIyoSrKAgTt4/Iag/qwSUAn0HUGq
+        ACPHWlvAimKZcDHXPKvmrI7mApZeYC4rHVW4AHnAVAKcJ+kKoGAiyjU5mWMTXMBCDrrt332A3h1IvEtX
+        ADZmjMnLYQ/AemBN9APGz2HxXtoLiChXgEwzQOAQkh8wKC98gExTwNAZ3MrA4ROty7fgAzQsoUeup79K
+        J3D7oE4JPhO9gNANzD9Iy4O6gKKJvmv0AiZSMK2+aAAoXaO/kbyAVh293bZxfUCpkdxHVSuXAUEZ2K+Z
+        qAH4W/kP4hkmC2jTCTr2pSuA+sPkjf+NM+YXU3LH3dex1y4AAAAASUVORK5CYII=
 </value>
   </data>
   <metadata name="Column3.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
