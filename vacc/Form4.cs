@@ -85,6 +85,12 @@ namespace vacc
             user.governorate = gov.SelectedItem.ToString();
             user.name = name.Text;
             user.password = pass.Text;
+
+
+            //check age for the age limit
+            if (int.Parse(Age.Text) < 20)
+                MessageBox.Show("The vaccination isn't available for such range of age.\n You can not proceed unless you are over 20.");
+
             if (checkedListBox1.SelectedItem.ToString()== "No") 
             {
                 user.vaccinated = false;
@@ -95,8 +101,11 @@ namespace vacc
                 user.vaccinated = true;
                 user.dosagesNum = int.Parse(comboDose.SelectedItem.ToString());
             }
-
-
+            
+            //checking if the applicant should go to the waiting list plus setting their priority 
+            if (user.vaccinated == false) {
+                user.priorityDegree = user.settingPriority();
+            }
             
 
             MessageBox.Show("You've Succesfully Registered For Vaccination !");

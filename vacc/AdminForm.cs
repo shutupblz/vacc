@@ -115,6 +115,8 @@ namespace vacc
         {
 
         }
+
+        //this functionality may not be always available because I am providing it with a real email and password that may change at any time
         public static void Email(string htmlString)
         {
            
@@ -131,7 +133,7 @@ namespace vacc
                 stmp.Host = "smtp.gmail.com";
                 stmp.EnableSsl = true;
                 stmp.UseDefaultCredentials = false;
-                stmp.Credentials = new NetworkCredential("purplew37@gmail.com", "S@lma3010");
+                stmp.Credentials = new NetworkCredential("purplew37@gmail.com", "forVaccination2021");
                 stmp.DeliveryMethod = SmtpDeliveryMethod.Network;
                 stmp.Send(message);
             }
@@ -139,14 +141,11 @@ namespace vacc
         }
         private void sendEmailBtn_Click(object sender, EventArgs e)
         {
-            string htmlString1 = "Hello,\nHope this email finds you well and healthy.\n First Vaccination Notice:\n Your first dose will be on: " + DateTime.Now + "\nand the second Vaccination will be 14 days apart: " + DateTime.Now.AddDays(14) + "\nYou may have 3 days after each vaccination date to attend to your destinated area, after the 3 days your vaccination application will be removed and you will have to register again for vaccination.";
+            string htmlString1 = "Hello,\nHope this email finds you well and healthy.\nFirst Vaccination Notice:\n Your first dose will be on: " + DateTime.Now + "\nand the second Vaccination will be 14 days apart: " + DateTime.Now.AddDays(14) + "\nYou may have 3 days after each vaccination date to attend to your destinated area, after the 3 days your vaccination application will be removed and you will have to register again for vaccination.";
 
             Email(htmlString1);
         }
 
-        private void label7_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("The E-mails will be sent to the first 50 people until the admin decide the capacity of the day.");
-        }
+      
     }
 }

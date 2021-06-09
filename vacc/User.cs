@@ -56,17 +56,19 @@ namespace vacc
             return 0;
         }
         //setting the priority as the user enters data
+        //if the priority degree is 6, then that is a emergency 
+        //the other numbers are set according how severe the case is
         public int settingPriority() {
-
-            if (age >= 60 && age <= 80)
-                priorityDegree = 5;
+            if (age > 100)
+                return priorityDegree = 6;
+            else if (age >= 60 && age <= 100)
+               return priorityDegree = 5;
             else if (age >= 40 && age < 60)
-                priorityDegree = 4;
-            else if (age >= 30 && age < 40)
-                priorityDegree = 3;
-            else
-                priorityDegree = 0;
-
+                return priorityDegree = 4;
+            else if (age >= 20 && age < 40)
+                return priorityDegree = 3;
+            
+            //waiting for the chronic disease, medical sector thing and the emails also 
 
 
             return 0;

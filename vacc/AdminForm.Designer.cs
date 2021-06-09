@@ -29,7 +29,6 @@ namespace vacc
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AdminForm));
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.button4 = new System.Windows.Forms.Button();
@@ -58,7 +57,6 @@ namespace vacc
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
             this.tabPage3 = new System.Windows.Forms.TabPage();
-            this.label7 = new System.Windows.Forms.Label();
             this.sendEmailBtn = new System.Windows.Forms.Button();
             this.waitingGridView = new System.Windows.Forms.DataGridView();
             this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -348,7 +346,6 @@ namespace vacc
             // 
             // tabPage3
             // 
-            this.tabPage3.Controls.Add(this.label7);
             this.tabPage3.Controls.Add(this.sendEmailBtn);
             this.tabPage3.Controls.Add(this.waitingGridView);
             this.tabPage3.Location = new System.Drawing.Point(4, 25);
@@ -357,16 +354,6 @@ namespace vacc
             this.tabPage3.TabIndex = 2;
             this.tabPage3.Text = "Waiting List";
             this.tabPage3.UseVisualStyleBackColor = true;
-            // 
-            // label7
-            // 
-            this.label7.Image = ((System.Drawing.Image)(resources.GetObject("label7.Image")));
-            this.label7.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.label7.Location = new System.Drawing.Point(213, 82);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(32, 32);
-            this.label7.TabIndex = 2;
-            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // sendEmailBtn
             // 
@@ -513,7 +500,6 @@ namespace vacc
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TabPage tabPage3;
-        private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button sendEmailBtn;
         private System.Windows.Forms.DataGridView waitingGridView;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
