@@ -105,6 +105,7 @@
     <Compile Include="User.cs" />
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <Compile Include="UserForm.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +118,9 @@
     <Compile Include="ViewInfo.Designer.cs">
       <DependentUpon>ViewInfo.cs</DependentUpon>
     </Compile>
+=======
+    <Compile Include="Userdata.cs" />
+>>>>>>> Stashed changes
 =======
     <Compile Include="Userdata.cs" />
 >>>>>>> Stashed changes

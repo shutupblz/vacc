@@ -10,18 +10,27 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Text.RegularExpressions;
-
+using System.Collections;
 namespace vacc
 {
     public partial class Form4 : Form
     {
+        static List<User> userList = new List<User>();
+        static User user = new User();
+
+
         public Form4()
         {
+            
             InitializeComponent();
         }
+<<<<<<< Updated upstream
        
+=======
+>>>>>>> Stashed changes
         private void Form4_Load(object sender, EventArgs e)
         {
+            
 
 
         }
@@ -44,7 +53,18 @@ namespace vacc
         SortedSet<long> ids = new SortedSet<long>();
         private void regbtn_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
             if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == ""  || comboGen.Text == "" || checkedListBox1.SelectedIndex == -1)
+=======
+            
+            User user = new User();
+            user.Idnum = userList.Count + 1;
+            user.Idnum = int.Parse(id.Text);
+            userList.Add(user);
+            
+            
+            if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == "" || comboDose.Text == "" || comboGen.Text == "" )
+>>>>>>> Stashed changes
             {
                 MessageBox.Show("Missing Information ! ");
                 return;
@@ -62,6 +82,7 @@ namespace vacc
             User user = new User();
             if (nationalID.ToString().Length == 14)
             {
+<<<<<<< Updated upstream
                 if (ids.Contains(nationalID))
                 {
                     MessageBox.Show("This ID has Already registered");
@@ -73,6 +94,16 @@ namespace vacc
                     ids.Add(nationalID);
                 }
 
+=======
+                u.Idnum = num;
+                u.Age = int.Parse(Age.Text);
+                u.Combogen = (comboGen.SelectedIndex.ToString());
+                u.DosagesNum = int.Parse(comboDose.SelectedItem.ToString());
+                u.Governate = gov.Text;
+                u.Name = name.Text;
+                u.Pass = pass.Text;
+               
+>>>>>>> Stashed changes
             }
             else
             {
@@ -220,6 +251,16 @@ namespace vacc
         private void Form4_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
+        }
+
+        private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label11_Click(object sender, EventArgs e)
+        {
+            
         }
     }
 }

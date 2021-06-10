@@ -55,9 +55,15 @@ namespace vacc
             this.label6 = new System.Windows.Forms.Label();
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.emailtxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label12 = new System.Windows.Forms.Label();
             this.categcmd = new System.Windows.Forms.ComboBox();
+=======
+            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+>>>>>>> Stashed changes
 =======
             this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label12 = new System.Windows.Forms.Label();
@@ -170,7 +176,11 @@ namespace vacc
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label5.Location = new System.Drawing.Point(674, 228);
+=======
+            this.label5.Location = new System.Drawing.Point(618, 228);
+>>>>>>> Stashed changes
 =======
             this.label5.Location = new System.Drawing.Point(618, 228);
 >>>>>>> Stashed changes
@@ -287,6 +297,9 @@ namespace vacc
             this.label11.Text = "GOVERNATE";
             this.label11.Click += new System.EventHandler(this.label11_Click);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -307,6 +320,9 @@ namespace vacc
             "OTHER"});
             this.comboGen.Location = new System.Drawing.Point(609, 487);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -350,6 +366,9 @@ namespace vacc
             "2 DOSES"});
             this.comboDose.Location = new System.Drawing.Point(389, 611);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -501,6 +520,9 @@ namespace vacc
             "المنيا"});
             this.gov.Location = new System.Drawing.Point(682, 602);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -516,7 +538,11 @@ namespace vacc
             this.button1.ForeColor = System.Drawing.Color.MediumBlue;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button1.Location = new System.Drawing.Point(1040, 12);
+=======
+            this.button1.Location = new System.Drawing.Point(963, 12);
+>>>>>>> Stashed changes
 =======
             this.button1.Location = new System.Drawing.Point(963, 12);
 >>>>>>> Stashed changes
@@ -552,7 +578,11 @@ namespace vacc
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.label6.Location = new System.Drawing.Point(962, 227);
+=======
+            this.label6.Location = new System.Drawing.Point(77, 420);
+>>>>>>> Stashed changes
 =======
             this.label6.Location = new System.Drawing.Point(77, 420);
 >>>>>>> Stashed changes
@@ -564,6 +594,7 @@ namespace vacc
             this.label6.TabIndex = 40;
             this.label6.Text = "EMAIL";
             // 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
             // emailtxt
@@ -589,6 +620,8 @@ namespace vacc
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             // bunifuMaterialTextbox1
             // 
             this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -609,6 +642,9 @@ namespace vacc
             this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.bunifuMaterialTextbox1.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox1_OnValueChanged);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -619,6 +655,7 @@ namespace vacc
             this.label12.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.label12.Location = new System.Drawing.Point(690, 496);
@@ -644,6 +681,8 @@ namespace vacc
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             this.label12.Location = new System.Drawing.Point(785, 420);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(245, 25);
@@ -665,6 +704,9 @@ namespace vacc
             this.comboBox1.Size = new System.Drawing.Size(133, 28);
             this.comboBox1.TabIndex = 43;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -677,6 +719,7 @@ namespace vacc
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.ClientSize = new System.Drawing.Size(1165, 704);
             this.Controls.Add(this.categcmd);
             this.Controls.Add(this.label12);
@@ -684,11 +727,16 @@ namespace vacc
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
             this.ClientSize = new System.Drawing.Size(1042, 789);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label12);
             this.Controls.Add(this.bunifuMaterialTextbox1);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
@@ -750,10 +798,16 @@ namespace vacc
         private System.Windows.Forms.Label label6;
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private Bunifu.Framework.UI.BunifuMaterialTextbox emailtxt;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.ComboBox categcmd;
         public Bunifu.Framework.UI.BunifuMaterialTextbox name;
+=======
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox comboBox1;
+>>>>>>> Stashed changes
 =======
         private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
         private System.Windows.Forms.Label label12;
