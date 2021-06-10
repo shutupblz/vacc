@@ -12,8 +12,10 @@ namespace vacc
 {
     public partial class Form3 : Form
     {
+        User user;
         public Form3()
         {
+            user = new User();
             InitializeComponent();
         }
 
@@ -31,8 +33,7 @@ namespace vacc
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Form5 f = new Form5();
-            f.Show();
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -60,6 +61,25 @@ namespace vacc
         private void Form3_Load(object sender, EventArgs e)
         {
 
+        }
+
+<<<<<<< Updated upstream
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form5 f = new Form5();
+=======
+        private void button5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Form4 f = new Form4();
+>>>>>>> Stashed changes
+            f.Show();
         }
     }
 }

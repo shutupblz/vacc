@@ -32,9 +32,10 @@ namespace vacc
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form5));
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.txtuser = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.IDtxt = new System.Windows.Forms.TextBox();
+            this.passtxt = new System.Windows.Forms.TextBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -55,40 +56,58 @@ namespace vacc
             this.label2.BackColor = System.Drawing.Color.DimGray;
             this.label2.Font = new System.Drawing.Font("Century Gothic", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(172, 178);
+            this.label2.Location = new System.Drawing.Point(172, 183);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 28);
             this.label2.TabIndex = 2;
             this.label2.Text = "Password :";
             // 
-            // txtuser
+            // IDtxt
             // 
-            this.txtuser.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtuser.Location = new System.Drawing.Point(409, 113);
-            this.txtuser.Name = "txtuser";
-            this.txtuser.Size = new System.Drawing.Size(254, 30);
-            this.txtuser.TabIndex = 3;
-            this.txtuser.TextChanged += new System.EventHandler(this.txtuser_TextChanged);
+            this.IDtxt.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.IDtxt.Location = new System.Drawing.Point(409, 113);
+            this.IDtxt.Name = "IDtxt";
+            this.IDtxt.Size = new System.Drawing.Size(254, 30);
+            this.IDtxt.TabIndex = 3;
+            this.IDtxt.TextChanged += new System.EventHandler(this.txtuser_TextChanged);
             // 
-            // textBox1
+            // passtxt
             // 
-            this.textBox1.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(409, 176);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(254, 30);
-            this.textBox1.TabIndex = 4;
+            this.passtxt.Font = new System.Drawing.Font("Century Gothic", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passtxt.Location = new System.Drawing.Point(409, 176);
+            this.passtxt.Name = "passtxt";
+            this.passtxt.Size = new System.Drawing.Size(254, 30);
+            this.passtxt.TabIndex = 4;
             // 
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.IndianRed;
             this.button1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(307, 460);
+<<<<<<< Updated upstream
+            this.button1.Location = new System.Drawing.Point(338, 462);
+=======
+            this.button1.Location = new System.Drawing.Point(338, 505);
+>>>>>>> Stashed changes
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(325, 58);
             this.button1.TabIndex = 6;
-            this.button1.Text = "Display Data";
+            this.button1.Text = "Sign In";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.IndianRed;
+            this.button3.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.button3.Location = new System.Drawing.Point(790, 466);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(123, 50);
+            this.button3.TabIndex = 61;
+            this.button3.Text = "BACK";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Form5
             // 
@@ -96,9 +115,10 @@ namespace vacc
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(978, 593);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txtuser);
+            this.Controls.Add(this.passtxt);
+            this.Controls.Add(this.IDtxt);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Form5";
@@ -112,8 +132,9 @@ namespace vacc
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtuser;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox IDtxt;
+        private System.Windows.Forms.TextBox passtxt;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button3;
     }
 }

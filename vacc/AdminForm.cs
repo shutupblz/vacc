@@ -51,7 +51,7 @@ namespace vacc
         {
             Admin admin = new Admin();
           
-            User user = admin.SearchUser(long.Parse(textBox1.Text));
+            User user = Admin.SearchUser(long.Parse(textBox1.Text));
             if (user != null)
             {
                 textBox2.Text = user.name;
@@ -102,6 +102,11 @@ namespace vacc
                 dataGridView1.Rows.Add(users[i].name, users[i].NationalID, users[i].gender, users[i].age, users[i].governorate, users[i].vaccinated, users[i].dosagesNum);
 
             }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

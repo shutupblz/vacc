@@ -11,10 +11,11 @@ namespace vacc
         #region Fields
         private const string username = "Admin";
         private const int password = 12345;
+        static int index;
         private static List<User> allUsers = new List<User>();
         //List<User> waitingList = new List<User>();
 
-        
+
 
         #endregion
 
@@ -22,14 +23,14 @@ namespace vacc
         #region Functions
         public bool login(string name, int pass)
         {
-            if(name == username && pass == password)
+            if (name == username && pass == password)
             {
                 return true;
             }
             return false;
-            
+
         }
-      
+
         public string getUsername()
         {
             return username;
@@ -57,12 +58,13 @@ namespace vacc
             return allUsers;
 
         }
-        public User SearchUser(long Nationalid)
+        public static User SearchUser(long Nationalid)
         {
             for (int i = 0; i < allUsers.Count(); i++)
             {
                 if (allUsers[i].NationalID == Nationalid)
                 {
+                    index = i;
                     return allUsers[i];
                 }
             }
@@ -70,13 +72,26 @@ namespace vacc
         }
         public bool DeleteUser(long Nationalid)
         {
-             User user = SearchUser(Nationalid);
-            if(user !=null)
+            User user = SearchUser(Nationalid);
+            if (user != null)
             {
                 allUsers.Remove(user);
                 return true;
             }
-            return false; 
+            return false;
+        }
+        public static void update(User user)
+        {
+            
+              
+                    allUsers[index].name = user.name;
+                    allUsers[index].gender = user.gender;
+                    allUsers[index].email = user.email;
+
+
+
+
+
         }
     }
 }

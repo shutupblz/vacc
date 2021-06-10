@@ -38,7 +38,7 @@ namespace vacc
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.pass = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.passtxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.id = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
@@ -52,6 +52,16 @@ namespace vacc
             this.gov = new System.Windows.Forms.ComboBox();
             this.button1 = new System.Windows.Forms.Button();
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
+            this.label6 = new System.Windows.Forms.Label();
+<<<<<<< Updated upstream
+            this.emailtxt = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.categcmd = new System.Windows.Forms.ComboBox();
+=======
+            this.bunifuMaterialTextbox1 = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+>>>>>>> Stashed changes
             this.SuspendLayout();
             // 
             // label1
@@ -77,7 +87,6 @@ namespace vacc
             this.label2.Size = new System.Drawing.Size(592, 44);
             this.label2.TabIndex = 2;
             this.label2.Text = "REGISTER FOR VACCINATION";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // name
             // 
@@ -116,7 +125,7 @@ namespace vacc
             this.label4.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label4.Location = new System.Drawing.Point(374, 228);
+            this.label4.Location = new System.Drawing.Point(335, 228);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(148, 25);
             this.label4.TabIndex = 12;
@@ -128,7 +137,7 @@ namespace vacc
             this.label7.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label7.Location = new System.Drawing.Point(313, 496);
+            this.label7.Location = new System.Drawing.Point(309, 561);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(325, 25);
             this.label7.TabIndex = 15;
@@ -141,7 +150,7 @@ namespace vacc
             this.label8.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label8.Location = new System.Drawing.Point(22, 496);
+            this.label8.Location = new System.Drawing.Point(21, 561);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(257, 25);
             this.label8.TabIndex = 16;
@@ -153,12 +162,38 @@ namespace vacc
             this.label5.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(687, 228);
+<<<<<<< Updated upstream
+            this.label5.Location = new System.Drawing.Point(674, 228);
+=======
+            this.label5.Location = new System.Drawing.Point(618, 228);
+>>>>>>> Stashed changes
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(138, 25);
             this.label5.TabIndex = 17;
             this.label5.Text = "PASSWORD";
             // 
+<<<<<<< Updated upstream
+            // passtxt
+            // 
+            this.passtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.passtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.passtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.passtxt.HintForeColor = System.Drawing.Color.Empty;
+            this.passtxt.HintText = "";
+            this.passtxt.isPassword = false;
+            this.passtxt.LineFocusedColor = System.Drawing.Color.Blue;
+            this.passtxt.LineIdleColor = System.Drawing.Color.MidnightBlue;
+            this.passtxt.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.passtxt.LineThickness = 3;
+            this.passtxt.Location = new System.Drawing.Point(642, 256);
+            this.passtxt.Margin = new System.Windows.Forms.Padding(4);
+            this.passtxt.Name = "passtxt";
+            this.passtxt.Size = new System.Drawing.Size(217, 46);
+            this.passtxt.TabIndex = 18;
+            this.passtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.passtxt.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox2_OnValueChanged);
+            this.passtxt.Validating += new System.ComponentModel.CancelEventHandler(this.passtxt_Validating);
+=======
             // pass
             // 
             this.pass.Cursor = System.Windows.Forms.Cursors.IBeam;
@@ -171,13 +206,14 @@ namespace vacc
             this.pass.LineIdleColor = System.Drawing.Color.MidnightBlue;
             this.pass.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.pass.LineThickness = 3;
-            this.pass.Location = new System.Drawing.Point(642, 256);
+            this.pass.Location = new System.Drawing.Point(573, 266);
             this.pass.Margin = new System.Windows.Forms.Padding(4);
             this.pass.Name = "pass";
             this.pass.Size = new System.Drawing.Size(217, 46);
             this.pass.TabIndex = 18;
             this.pass.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             this.pass.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox2_OnValueChanged);
+>>>>>>> Stashed changes
             // 
             // id
             // 
@@ -191,7 +227,7 @@ namespace vacc
             this.id.LineIdleColor = System.Drawing.Color.MidnightBlue;
             this.id.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.id.LineThickness = 3;
-            this.id.Location = new System.Drawing.Point(340, 256);
+            this.id.Location = new System.Drawing.Point(305, 266);
             this.id.Margin = new System.Windows.Forms.Padding(4);
             this.id.Name = "id";
             this.id.Size = new System.Drawing.Size(217, 46);
@@ -207,7 +243,7 @@ namespace vacc
             this.label9.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label9.Location = new System.Drawing.Point(395, 345);
+            this.label9.Location = new System.Drawing.Point(401, 420);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(57, 25);
             this.label9.TabIndex = 21;
@@ -219,7 +255,7 @@ namespace vacc
             this.label10.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label10.Location = new System.Drawing.Point(22, 345);
+            this.label10.Location = new System.Drawing.Point(604, 420);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(100, 25);
             this.label10.TabIndex = 22;
@@ -231,11 +267,16 @@ namespace vacc
             this.label11.BackColor = System.Drawing.Color.MediumSeaGreen;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label11.Location = new System.Drawing.Point(689, 345);
+            this.label11.Location = new System.Drawing.Point(677, 561);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(131, 25);
             this.label11.TabIndex = 23;
+<<<<<<< Updated upstream
             this.label11.Text = "Governorate";
+=======
+            this.label11.Text = "GOVERNATE";
+            this.label11.Click += new System.EventHandler(this.label11_Click);
+>>>>>>> Stashed changes
             // 
             // comboGen
             // 
@@ -245,8 +286,14 @@ namespace vacc
             this.comboGen.FormattingEnabled = true;
             this.comboGen.Items.AddRange(new object[] {
             "FEMALE",
+<<<<<<< Updated upstream
             "MALE"});
             this.comboGen.Location = new System.Drawing.Point(26, 394);
+=======
+            "MALE",
+            "OTHER"});
+            this.comboGen.Location = new System.Drawing.Point(609, 487);
+>>>>>>> Stashed changes
             this.comboGen.Name = "comboGen";
             this.comboGen.Size = new System.Drawing.Size(133, 28);
             this.comboGen.TabIndex = 24;
@@ -263,7 +310,7 @@ namespace vacc
             this.Age.LineIdleColor = System.Drawing.Color.MidnightBlue;
             this.Age.LineMouseHoverColor = System.Drawing.Color.Blue;
             this.Age.LineThickness = 3;
-            this.Age.Location = new System.Drawing.Point(340, 372);
+            this.Age.Location = new System.Drawing.Point(340, 469);
             this.Age.Margin = new System.Windows.Forms.Padding(4);
             this.Age.Name = "Age";
             this.Age.Size = new System.Drawing.Size(217, 46);
@@ -278,9 +325,15 @@ namespace vacc
             this.comboDose.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.comboDose.FormattingEnabled = true;
             this.comboDose.Items.AddRange(new object[] {
+<<<<<<< Updated upstream
             "1 ",
             "2 "});
             this.comboDose.Location = new System.Drawing.Point(389, 562);
+=======
+            "1 DOSE",
+            "2 DOSES"});
+            this.comboDose.Location = new System.Drawing.Point(389, 611);
+>>>>>>> Stashed changes
             this.comboDose.Name = "comboDose";
             this.comboDose.Size = new System.Drawing.Size(133, 28);
             this.comboDose.TabIndex = 29;
@@ -303,7 +356,7 @@ namespace vacc
             this.regbtn.IdleFillColor = System.Drawing.Color.White;
             this.regbtn.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.regbtn.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.regbtn.Location = new System.Drawing.Point(182, 652);
+            this.regbtn.Location = new System.Drawing.Point(177, 728);
             this.regbtn.Margin = new System.Windows.Forms.Padding(5);
             this.regbtn.Name = "regbtn";
             this.regbtn.Size = new System.Drawing.Size(170, 54);
@@ -329,7 +382,7 @@ namespace vacc
             this.backbtn.IdleFillColor = System.Drawing.Color.White;
             this.backbtn.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.backbtn.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.backbtn.Location = new System.Drawing.Point(689, 652);
+            this.backbtn.Location = new System.Drawing.Point(693, 728);
             this.backbtn.Margin = new System.Windows.Forms.Padding(5);
             this.backbtn.Name = "backbtn";
             this.backbtn.Size = new System.Drawing.Size(170, 54);
@@ -355,7 +408,7 @@ namespace vacc
             this.resetbtn.IdleFillColor = System.Drawing.Color.White;
             this.resetbtn.IdleForecolor = System.Drawing.Color.SeaGreen;
             this.resetbtn.IdleLineColor = System.Drawing.Color.SeaGreen;
-            this.resetbtn.Location = new System.Drawing.Point(421, 652);
+            this.resetbtn.Location = new System.Drawing.Point(423, 728);
             this.resetbtn.Margin = new System.Windows.Forms.Padding(5);
             this.resetbtn.Name = "resetbtn";
             this.resetbtn.Size = new System.Drawing.Size(170, 54);
@@ -370,6 +423,7 @@ namespace vacc
             this.gov.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.gov.FormattingEnabled = true;
             this.gov.Items.AddRange(new object[] {
+<<<<<<< Updated upstream
             "Alexandria",
             "Aswan",
             "Asyut",
@@ -398,6 +452,36 @@ namespace vacc
             "South Sinai ",
             "Suez"});
             this.gov.Location = new System.Drawing.Point(689, 389);
+=======
+            "الإسكندرية",
+            "الإسماعيلية",
+            "كفر الشيخ",
+            "أسوان",
+            "أسيوط",
+            "الأقصر",
+            "الوادي الجديد",
+            "شمال سيناء",
+            "البحيرة",
+            "بني سويف",
+            "بورسعيد",
+            "البحر الأحمر",
+            "الجيزة",
+            "الدقهلية",
+            "جنوب سيناء",
+            "دمياط",
+            "سوهاج",
+            "السويس",
+            "الشرقية",
+            "الغربية",
+            "الفيوم",
+            "القاهرة",
+            "القليوبية",
+            "قنا",
+            "مطروح",
+            "المنوفية",
+            "المنيا"});
+            this.gov.Location = new System.Drawing.Point(682, 602);
+>>>>>>> Stashed changes
             this.gov.Name = "gov";
             this.gov.Size = new System.Drawing.Size(133, 28);
             this.gov.TabIndex = 35;
@@ -408,7 +492,11 @@ namespace vacc
             this.button1.BackColor = System.Drawing.Color.GhostWhite;
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.MediumBlue;
-            this.button1.Location = new System.Drawing.Point(907, 6);
+<<<<<<< Updated upstream
+            this.button1.Location = new System.Drawing.Point(1040, 12);
+=======
+            this.button1.Location = new System.Drawing.Point(963, 12);
+>>>>>>> Stashed changes
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(56, 39);
             this.button1.TabIndex = 38;
@@ -424,11 +512,120 @@ namespace vacc
             this.checkedListBox1.Items.AddRange(new object[] {
             "No",
             "Yes"});
-            this.checkedListBox1.Location = new System.Drawing.Point(58, 543);
+            this.checkedListBox1.Location = new System.Drawing.Point(52, 611);
             this.checkedListBox1.Name = "checkedListBox1";
             this.checkedListBox1.Size = new System.Drawing.Size(127, 48);
             this.checkedListBox1.TabIndex = 39;
             this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< Updated upstream
+            this.label6.Location = new System.Drawing.Point(962, 227);
+=======
+            this.label6.Location = new System.Drawing.Point(77, 420);
+>>>>>>> Stashed changes
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(77, 25);
+            this.label6.TabIndex = 40;
+            this.label6.Text = "EMAIL";
+            // 
+<<<<<<< Updated upstream
+            // emailtxt
+            // 
+            this.emailtxt.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.emailtxt.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.emailtxt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.emailtxt.HintForeColor = System.Drawing.Color.Empty;
+            this.emailtxt.HintText = "";
+            this.emailtxt.isPassword = false;
+            this.emailtxt.LineFocusedColor = System.Drawing.Color.Blue;
+            this.emailtxt.LineIdleColor = System.Drawing.Color.MidnightBlue;
+            this.emailtxt.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.emailtxt.LineThickness = 3;
+            this.emailtxt.Location = new System.Drawing.Point(909, 256);
+            this.emailtxt.Margin = new System.Windows.Forms.Padding(4);
+            this.emailtxt.Name = "emailtxt";
+            this.emailtxt.Size = new System.Drawing.Size(217, 46);
+            this.emailtxt.TabIndex = 41;
+            this.emailtxt.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.emailtxt.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox1_OnValueChanged);
+            this.emailtxt.Validating += new System.ComponentModel.CancelEventHandler(this.emailtxt_Validating);
+=======
+            // bunifuMaterialTextbox1
+            // 
+            this.bunifuMaterialTextbox1.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.bunifuMaterialTextbox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuMaterialTextbox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.bunifuMaterialTextbox1.HintForeColor = System.Drawing.Color.Empty;
+            this.bunifuMaterialTextbox1.HintText = "";
+            this.bunifuMaterialTextbox1.isPassword = false;
+            this.bunifuMaterialTextbox1.LineFocusedColor = System.Drawing.Color.Blue;
+            this.bunifuMaterialTextbox1.LineIdleColor = System.Drawing.Color.MidnightBlue;
+            this.bunifuMaterialTextbox1.LineMouseHoverColor = System.Drawing.Color.Blue;
+            this.bunifuMaterialTextbox1.LineThickness = 3;
+            this.bunifuMaterialTextbox1.Location = new System.Drawing.Point(27, 469);
+            this.bunifuMaterialTextbox1.Margin = new System.Windows.Forms.Padding(4);
+            this.bunifuMaterialTextbox1.Name = "bunifuMaterialTextbox1";
+            this.bunifuMaterialTextbox1.Size = new System.Drawing.Size(217, 46);
+            this.bunifuMaterialTextbox1.TabIndex = 41;
+            this.bunifuMaterialTextbox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
+            this.bunifuMaterialTextbox1.OnValueChanged += new System.EventHandler(this.bunifuMaterialTextbox1_OnValueChanged);
+>>>>>>> Stashed changes
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label12.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+<<<<<<< Updated upstream
+            this.label12.Location = new System.Drawing.Point(690, 496);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(132, 25);
+            this.label12.TabIndex = 42;
+            this.label12.Text = "CATEGORY";
+            // 
+            // categcmd
+            // 
+            this.categcmd.BackColor = System.Drawing.Color.DarkBlue;
+            this.categcmd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.categcmd.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.categcmd.FormattingEnabled = true;
+            this.categcmd.Items.AddRange(new object[] {
+            "MEDICAL SECTOR",
+            "CHRONIC PATIENTS FROM ALL AGES",
+            "OTHER"});
+            this.categcmd.Location = new System.Drawing.Point(679, 563);
+            this.categcmd.Name = "categcmd";
+            this.categcmd.Size = new System.Drawing.Size(180, 28);
+            this.categcmd.TabIndex = 43;
+=======
+            this.label12.Location = new System.Drawing.Point(785, 420);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(245, 25);
+            this.label12.TabIndex = 42;
+            this.label12.Text = "CHOOSE CATEGORY :";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.BackColor = System.Drawing.Color.DarkBlue;
+            this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBox1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Medical sector",
+            "Chronic Patients From All Ages",
+            "Other"});
+            this.comboBox1.Location = new System.Drawing.Point(842, 487);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(133, 28);
+            this.comboBox1.TabIndex = 43;
+>>>>>>> Stashed changes
             // 
             // Form4
             // 
@@ -436,7 +633,18 @@ namespace vacc
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
-            this.ClientSize = new System.Drawing.Size(991, 712);
+<<<<<<< Updated upstream
+            this.ClientSize = new System.Drawing.Size(1165, 704);
+            this.Controls.Add(this.categcmd);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.emailtxt);
+=======
+            this.ClientSize = new System.Drawing.Size(1042, 789);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.label12);
+            this.Controls.Add(this.bunifuMaterialTextbox1);
+>>>>>>> Stashed changes
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.checkedListBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.gov);
@@ -450,7 +658,7 @@ namespace vacc
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.id);
-            this.Controls.Add(this.pass);
+            this.Controls.Add(this.passtxt);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
@@ -472,13 +680,12 @@ namespace vacc
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox name;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label5;
-        private Bunifu.Framework.UI.BunifuMaterialTextbox pass;
+        private Bunifu.Framework.UI.BunifuMaterialTextbox passtxt;
         private Bunifu.Framework.UI.BunifuMaterialTextbox id;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label10;
@@ -492,5 +699,16 @@ namespace vacc
         private System.Windows.Forms.ComboBox gov;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.CheckedListBox checkedListBox1;
+        private System.Windows.Forms.Label label6;
+<<<<<<< Updated upstream
+        private Bunifu.Framework.UI.BunifuMaterialTextbox emailtxt;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox categcmd;
+        public Bunifu.Framework.UI.BunifuMaterialTextbox name;
+=======
+        private Bunifu.Framework.UI.BunifuMaterialTextbox bunifuMaterialTextbox1;
+        private System.Windows.Forms.Label label12;
+        private System.Windows.Forms.ComboBox comboBox1;
+>>>>>>> Stashed changes
     }
 }

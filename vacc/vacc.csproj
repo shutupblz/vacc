@@ -101,6 +101,22 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="User.cs" />
+<<<<<<< Updated upstream
+    <Compile Include="UserForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UserForm.Designer.cs">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ViewInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ViewInfo.Designer.cs">
+      <DependentUpon>ViewInfo.cs</DependentUpon>
+    </Compile>
+=======
+    <Compile Include="Userdata.cs" />
+>>>>>>> Stashed changes
     <EmbeddedResource Include="AdminForm.resx">
       <DependentUpon>AdminForm.cs</DependentUpon>
     </EmbeddedResource>
@@ -123,6 +139,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserForm.resx">
+      <DependentUpon>UserForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ViewInfo.resx">
+      <DependentUpon>ViewInfo.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\DataSources\Form4.datasource" />
     <None Include="Properties\Settings.settings">

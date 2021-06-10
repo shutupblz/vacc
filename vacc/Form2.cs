@@ -46,7 +46,8 @@ namespace vacc
             }
             else
             {
-                MessageBox.Show("Wrong User Name or Pass sis ! ");
+                MessageBox.Show("Wrong User-Name or Password ! ");
+                Application.Exit();
 
 
             }
