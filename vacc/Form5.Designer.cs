@@ -85,7 +85,11 @@ namespace vacc
             this.button1.Font = new System.Drawing.Font("Century Gothic", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button1.Location = new System.Drawing.Point(338, 462);
+=======
+            this.button1.Location = new System.Drawing.Point(338, 505);
+>>>>>>> Stashed changes
 =======
             this.button1.Location = new System.Drawing.Point(338, 505);
 >>>>>>> Stashed changes

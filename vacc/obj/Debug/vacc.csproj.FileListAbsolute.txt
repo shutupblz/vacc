@@ -32,6 +32,7 @@ D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.exe
 D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.pdb
 D:\SWE semester 4\Data Structure\project\V\vacc\vacc\obj\Debug\vacc.AdminForm.resources
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\Users\rawan\Desktop\vacc\vacc\bin\Debug\vacc.exe.config
 C:\Users\rawan\Desktop\vacc\vacc\bin\Debug\vacc.exe
 C:\Users\rawan\Desktop\vacc\vacc\bin\Debug\vacc.pdb
@@ -48,6 +49,8 @@ C:\Users\rawan\Desktop\vacc\vacc\obj\Debug\vacc.csproj.CoreCompileInputs.cache
 C:\Users\rawan\Desktop\vacc\vacc\obj\Debug\vacc.csproj.CopyComplete
 C:\Users\rawan\Desktop\vacc\vacc\obj\Debug\vacc.exe
 C:\Users\rawan\Desktop\vacc\vacc\obj\Debug\vacc.pdb
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 C:\DS ZEFT\vacc ya rab\vacc\vacc\bin\Debug\vacc.exe.config
@@ -67,7 +70,10 @@ C:\DS ZEFT\vacc ya rab\vacc\vacc\obj\Debug\vacc.csproj.CopyComplete
 C:\DS ZEFT\vacc ya rab\vacc\vacc\obj\Debug\vacc.exe
 C:\DS ZEFT\vacc ya rab\vacc\vacc\obj\Debug\vacc.pdb
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 C:\DS ZEFT\vacc ya rab\vacc\vacc\obj\Debug\vacc.UserForm.resources
 C:\DS ZEFT\vacc ya rab\vacc\vacc\obj\Debug\vacc.ViewInfo.resources
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes

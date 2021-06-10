@@ -64,6 +64,7 @@ namespace vacc
         }
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
@@ -74,10 +75,15 @@ namespace vacc
             this.Hide();
             Form5 f = new Form5();
 =======
+=======
+>>>>>>> Stashed changes
         private void button5_Click(object sender, EventArgs e)
         {
             this.Hide();
             Form4 f = new Form4();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             f.Show();
         }

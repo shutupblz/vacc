@@ -10,6 +10,7 @@ namespace vacc
     public class User
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private static List<User> UserList = new List<User>();
 
 
@@ -71,6 +72,8 @@ namespace vacc
             return null;
         }
 =======
+=======
+>>>>>>> Stashed changes
         private string name;
         private int idnum;
         private string email;
@@ -92,6 +95,9 @@ namespace vacc
         public bool Vaccinated { get => vaccinated; set => vaccinated = value; }
         public int DosagesNum { get => dosagesNum; set => dosagesNum = value; }
         public string Category { get => category; set => category = value; }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

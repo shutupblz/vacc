@@ -16,9 +16,14 @@ namespace vacc
     public partial class Form4 : Form
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         public User user { get; set; }
 
 
+=======
+        static List<User> userList = new List<User>();
+        static User user = new User();
+>>>>>>> Stashed changes
 =======
         static List<User> userList = new List<User>();
         static User user = new User();
@@ -32,7 +37,10 @@ namespace vacc
             //user = new User();
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
        
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         private void Form4_Load(object sender, EventArgs e)
@@ -62,6 +70,7 @@ namespace vacc
         private void regbtn_Click(object sender, EventArgs e)
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             //for the sign in 
             long ID = long.Parse(id.Text);
             User user_signin = new User(ID , passtxt.Text);
@@ -70,6 +79,8 @@ namespace vacc
 
             if (name.Text == "" || id.Text == "" || Age.Text == "" || passtxt.Text == "" || gov.Text == ""  || comboGen.Text == "" || checkedListBox1.SelectedIndex == -1)
 =======
+=======
+>>>>>>> Stashed changes
             
             User user = new User();
             user.Idnum = userList.Count + 1;
@@ -97,6 +108,7 @@ namespace vacc
             if (nationalID.ToString().Length == 14)
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 if (ids.Contains(nationalID))
                 {
                     MessageBox.Show("This ID has Already registered");
@@ -109,6 +121,8 @@ namespace vacc
                 }
 
 =======
+=======
+>>>>>>> Stashed changes
                 u.Idnum = num;
                 u.Age = int.Parse(Age.Text);
                 u.Combogen = (comboGen.SelectedIndex.ToString());
@@ -270,6 +284,7 @@ namespace vacc
         private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             
         }
 
@@ -315,11 +330,16 @@ namespace vacc
             }
 
 =======
+=======
+>>>>>>> Stashed changes
 
         }
 
         private void label11_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             
         }
