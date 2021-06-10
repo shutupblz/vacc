@@ -10,42 +10,18 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.SqlTypes;
 using System.Text.RegularExpressions;
-using System.Collections;
+
 namespace vacc
 {
     public partial class Form4 : Form
     {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-        public User user { get; set; }
-
-
-=======
-        static List<User> userList = new List<User>();
-        static User user = new User();
->>>>>>> Stashed changes
-=======
-        static List<User> userList = new List<User>();
-        static User user = new User();
->>>>>>> Stashed changes
-
-
         public Form4()
         {
-            
             InitializeComponent();
-            //user = new User();
         }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
        
-=======
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
         private void Form4_Load(object sender, EventArgs e)
         {
-            
 
 
         }
@@ -57,8 +33,7 @@ namespace vacc
 
         private void bunifuMaterialTextbox2_OnValueChanged(object sender, EventArgs e)
         {
-            
-            
+
         }
 
         private void bunifuMaterialTextbox4_OnValueChanged(object sender, EventArgs e)
@@ -69,27 +44,7 @@ namespace vacc
         SortedSet<long> ids = new SortedSet<long>();
         private void regbtn_Click(object sender, EventArgs e)
         {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            //for the sign in 
-            long ID = long.Parse(id.Text);
-            User user_signin = new User(ID , passtxt.Text);
-            User.SignInUserList(user_signin);
-            //for the admin to dispalay user data
-
-            if (name.Text == "" || id.Text == "" || Age.Text == "" || passtxt.Text == "" || gov.Text == ""  || comboGen.Text == "" || checkedListBox1.SelectedIndex == -1)
-=======
-=======
->>>>>>> Stashed changes
-            
-            User user = new User();
-            user.Idnum = userList.Count + 1;
-            user.Idnum = int.Parse(id.Text);
-            userList.Add(user);
-            
-            
-            if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == "" || comboDose.Text == "" || comboGen.Text == "" )
->>>>>>> Stashed changes
+            if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == ""  || comboGen.Text == "" || checkedListBox1.SelectedIndex == -1)
             {
                 MessageBox.Show("Missing Information ! ");
                 return;
@@ -107,8 +62,6 @@ namespace vacc
             User user = new User();
             if (nationalID.ToString().Length == 14)
             {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
                 if (ids.Contains(nationalID))
                 {
                     MessageBox.Show("This ID has Already registered");
@@ -120,18 +73,6 @@ namespace vacc
                     ids.Add(nationalID);
                 }
 
-=======
-=======
->>>>>>> Stashed changes
-                u.Idnum = num;
-                u.Age = int.Parse(Age.Text);
-                u.Combogen = (comboGen.SelectedIndex.ToString());
-                u.DosagesNum = int.Parse(comboDose.SelectedItem.ToString());
-                u.Governate = gov.Text;
-                u.Name = name.Text;
-                u.Pass = pass.Text;
-               
->>>>>>> Stashed changes
             }
             else
             {
@@ -139,14 +80,17 @@ namespace vacc
                 return;
 
             }
-           
             user.age = int.Parse(Age.Text);
             user.gender = comboGen.SelectedItem.ToString();
             user.governorate = gov.SelectedItem.ToString();
             user.name = name.Text;
-            user.password = passtxt.Text;
-            user.email = emailtxt.Text;
-            user.category = categcmd.Text;
+            user.password = pass.Text;
+
+
+            //check age for the age limit
+            if (int.Parse(Age.Text) < 20)
+                MessageBox.Show("The vaccination isn't available for such range of age.\n You can not proceed unless you are over 20.");
+
             if (checkedListBox1.SelectedItem.ToString()== "No") 
             {
                 user.vaccinated = false;
@@ -157,17 +101,16 @@ namespace vacc
                 user.vaccinated = true;
                 user.dosagesNum = int.Parse(comboDose.SelectedItem.ToString());
             }
-           
+            
+            //checking if the applicant should go to the waiting list plus setting their priority 
+            if (user.vaccinated == false) {
+                user.priorityDegree = user.settingPriority();
+            }
+            
 
             MessageBox.Show("You've Succesfully Registered For Vaccination !");
             users.Add(user);
             Admin.receiveDate(user);
-            
-            //for the viewInfo form
-          /*  ViewInfo info = new ViewInfo();
-            info.View(user.name);
-            info.Show()*/;
-            
         }
 
         private void resetbtn_Click(object sender, EventArgs e)
@@ -175,12 +118,10 @@ namespace vacc
             name.Text = "";
             id.Text = "";
             Age.Text = "";
-            passtxt.Text = "";
+            pass.Text = "";
             gov.Text = "";
             comboDose.Text = "";
             comboGen.Text = "";
-            emailtxt.Text = "";
-            categcmd.Text = "";
         }
 
         private void backbtn_Click(object sender, EventArgs e)
@@ -269,7 +210,7 @@ namespace vacc
           */
 
 
-    }
+        }
 
         private void name_OnValueChanged(object sender, EventArgs e)
         {
@@ -279,69 +220,6 @@ namespace vacc
         private void Form4_FormClosing(object sender, FormClosingEventArgs e)
         {
             Application.Exit();
-        }
-
-        private void bunifuMaterialTextbox1_OnValueChanged(object sender, EventArgs e)
-        {
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            
-        }
-
-        private void passtxt_Validating(object sender, CancelEventArgs e)
-        {
-           
-            //eg "aaZZa44@"
-            var passid = passtxt.Text;
-
-            string pattern = "(?=.*[0-9])(?=.*[a-z])(?=.*[A-Z])(?=.*[@#$%^&+=])(?=\\S+$).{8,}";
-
-            //check first string
-            if (Regex.IsMatch(passid, pattern))
-            {
-                //if email is valid
-               // MessageBox.Show(" valid password");
-            }
-            else
-            {
-                MessageBox.Show(" Invalid password");
-                return;
-            }
-        }
-
-        private void emailtxt_Validating(object sender, CancelEventArgs e)
-        {
-           //example test@gmail.com
-            var EmailId = emailtxt.Text;
-
-            string pattern = @"\A(?:[a-z0-9!#$%&'*+/=?^_`{|}~-]+(?:\.[a-z0-9!#$%&'*+/=?^_`{|}~-]+)*@(?:[a-z0-9](?:[a-z0-9-]*[a-z0-9])?\.)+[a-z0-9](?:[a-z0-9-]*[a-z0-9])?)\Z";
-
-            //check first string
-            if (Regex.IsMatch(EmailId, pattern))
-            {
-                //if email is valid
-               // MessageBox.Show(" valid Email address");
-            }
-            else
-            {
-                MessageBox.Show(" Invalid Email address");
-                return;
-
-            }
-
-=======
-=======
->>>>>>> Stashed changes
-
-        }
-
-        private void label11_Click(object sender, EventArgs e)
-        {
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
-            
         }
     }
 }
