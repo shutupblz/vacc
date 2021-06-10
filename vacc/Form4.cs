@@ -25,7 +25,10 @@ namespace vacc
             InitializeComponent();
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
        
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         private void Form4_Load(object sender, EventArgs e)
@@ -54,8 +57,11 @@ namespace vacc
         private void regbtn_Click(object sender, EventArgs e)
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             if (name.Text == "" || id.Text == "" || Age.Text == "" || pass.Text == "" || gov.Text == ""  || comboGen.Text == "" || checkedListBox1.SelectedIndex == -1)
 =======
+=======
+>>>>>>> Stashed changes
             
             User user = new User();
             user.Idnum = userList.Count + 1;
@@ -83,6 +89,7 @@ namespace vacc
             if (nationalID.ToString().Length == 14)
             {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
                 if (ids.Contains(nationalID))
                 {
                     MessageBox.Show("This ID has Already registered");
@@ -95,6 +102,8 @@ namespace vacc
                 }
 
 =======
+=======
+>>>>>>> Stashed changes
                 u.Idnum = num;
                 u.Age = int.Parse(Age.Text);
                 u.Combogen = (comboGen.SelectedIndex.ToString());

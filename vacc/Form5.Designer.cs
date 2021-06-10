@@ -87,7 +87,11 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button1.Location = new System.Drawing.Point(338, 462);
+=======
+            this.button1.Location = new System.Drawing.Point(338, 505);
+>>>>>>> Stashed changes
 =======
             this.button1.Location = new System.Drawing.Point(338, 505);
 >>>>>>> Stashed changes

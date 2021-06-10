@@ -11,6 +11,7 @@ namespace vacc
     public class User: IComparable<User>
     {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
        
         public string name;
         public long NationalID;
@@ -81,6 +82,14 @@ namespace vacc
         private string pass;
         private string combogen;
 
+=======
+        private string name;
+        private int idnum;
+        private string email;
+        private string pass;
+        private string combogen;
+
+>>>>>>> Stashed changes
         public string Combogen { get => combogen; set => combogen = value; }
         private int age;
         private string governate;
@@ -96,6 +105,9 @@ namespace vacc
         public bool Vaccinated { get => vaccinated; set => vaccinated = value; }
         public int DosagesNum { get => dosagesNum; set => dosagesNum = value; }
         public string Category { get => category; set => category = value; }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

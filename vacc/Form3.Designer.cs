@@ -38,7 +38,10 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -117,7 +120,11 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button6.Location = new System.Drawing.Point(690, 0);
+=======
+            this.button6.Location = new System.Drawing.Point(653, -3);
+>>>>>>> Stashed changes
 =======
             this.button6.Location = new System.Drawing.Point(653, -3);
 >>>>>>> Stashed changes
@@ -137,7 +144,10 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
@@ -177,7 +187,11 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.button5.Location = new System.Drawing.Point(335, -3);
+=======
+            this.button5.Location = new System.Drawing.Point(143, 0);
+>>>>>>> Stashed changes
 =======
             this.button5.Location = new System.Drawing.Point(143, 0);
 >>>>>>> Stashed changes
@@ -212,7 +226,11 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.pictureBox2.Size = new System.Drawing.Size(1199, 205);
+=======
+            this.pictureBox2.Size = new System.Drawing.Size(1136, 205);
+>>>>>>> Stashed changes
 =======
             this.pictureBox2.Size = new System.Drawing.Size(1136, 205);
 >>>>>>> Stashed changes
@@ -299,7 +317,10 @@ namespace vacc
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 =======
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
 =======
